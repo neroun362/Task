@@ -1,0 +1,3 @@
+dollarToRublesRate=84.25
+rublesToDollarRate=0.012
+//23.06
