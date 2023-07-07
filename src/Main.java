@@ -158,7 +158,7 @@ public class Main {
     private static void loadExchangeRates() {
         Properties properties = new Properties();
 
-        try (FileInputStream fis = new FileInputStream("F:\\Modsen\\TestGit\\src\\config\\config.properties.txt")) {
+        try (FileInputStream fis = new FileInputStream("config.properties.txt")) {
             properties.load(fis);
             dollarToRublesRate = Double.parseDouble(properties.getProperty("dollarToRublesRate"));
             rublesToDollarRate = Double.parseDouble(properties.getProperty("rublesToDollarRate"));
